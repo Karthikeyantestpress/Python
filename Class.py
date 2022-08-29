@@ -1,17 +1,10 @@
 class Developer:
-  def check_pass_fail(self):
-    if self.mark>=40:
-        return True
-    else :
-        return False
+ 
+  def __init__(self,name,platform,mark):
+     self.name=name
+     self.platform=platform
+     self.mark=mark
 
-Developer1=Developer()
-Developer1.name ="Karthikeyan"
-Developer1.platform ="Python"
-Developer1.mark =90
+Developer2=Developer("Bala","PHP",95)
+print(Developer2.name)
 
-Did_pass =Developer1.check_pass_fail()
-print(Did_pass)
-
-print(Developer1.name)
-print(Developer1.platform)
