@@ -1,4 +1,6 @@
-Count =0
-while (Count<5):
-    print("We are in Count ",Count )
-    Count +=1
+while True :
+    Number = float(input("Enter a number : "))
+    if (Number < 0):
+      break
+    else :
+        print ("Good job")
