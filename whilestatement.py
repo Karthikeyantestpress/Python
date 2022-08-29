@@ -1,3 +1,4 @@
 Count =0
-while (Count==0):
-    print("We are in a infinite Loop")
+while (Count<5):
+    print("We are in Count ",Count )
+    Count +=1
