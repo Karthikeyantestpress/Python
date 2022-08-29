@@ -1,2 +1,3 @@
-Animals ={"Dof","Cat","Tiger","Lion"}
+#Set donot allow Duplicates  
+Animals ={"Dog","Cat","Tiger","Lion","Dog"}
 print(Animals)
