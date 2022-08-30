@@ -10,3 +10,4 @@ class Quadrilateral(polygon):
 t1=Triangle([5,6,7])
 perimeter=t1.get_perimeter()
 print(perimeter)
+t1.Display()
