@@ -6,3 +6,5 @@ print(Animals)
 List_Animals =["Elephant","Cat","Horse"]
 Animals.update(List_Animals,{"Crocodile"})
 print(Animals)
+Intersection =Animals.intersection(List_Animals)
+print(Intersection)
