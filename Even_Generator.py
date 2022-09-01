@@ -1,16 +1,17 @@
-def Even_eenerator():
-     n=0
+def Even_eenerator(max):
+     n=2
 
-     n+=2
-     yield n
+     while (n<+max):
+       yield n
+       n+= 2
+       
+       
 
-     n+=2
-     yield n
-
-     n+=2
-     yield n
-
-Numbers = Even_eenerator()
+Numbers = Even_eenerator(100)
+print(next(Numbers))
+print(next(Numbers))
+print(next(Numbers))
+print(next(Numbers))
 print(next(Numbers))
 print(next(Numbers))
 print(next(Numbers))
