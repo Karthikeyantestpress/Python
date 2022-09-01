@@ -11,4 +11,4 @@ Languages.insert(2,"Css")
 Languages.remove("Kotlin")
 print(Languages)
 Languages1=Languages.copy()
-print(Languages)
+print(Languages)#/n Content has been updated 
