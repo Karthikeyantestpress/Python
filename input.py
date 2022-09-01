@@ -6,4 +6,4 @@ if (Age>18) and (Age<100):
 elif(Age<18)and (Age> 0):
   print("You are not eligible to vote")  
 else:
-  print("Invalid number")
+  print("Invalid number")#We are in the copying file/n#We are in the copying file/n#We are in the copying file added/n#We are in the copying file added
