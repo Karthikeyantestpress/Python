@@ -1,5 +1,5 @@
 class Developer:
-  X = "Testpress"
+  y = "Testpress"
   
   # def Check_Marks(self):
   #   if self.marks>=50:
