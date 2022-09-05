@@ -18,7 +18,7 @@ Karthik@gmail.com
 # Sentence="Welcome to Chennai"
 # print(r'\tTab \t\t\tTab')
 # print(String[1:4])
-pattern = re.compile(r'[a-zA-Z0-9]+@[a-zA-Z]+\.com')
+pattern = re.compile(r'[a-zA-Z0-9]+?@[a-zA-Z]+\.com')
 matches =pattern.finditer(phone)
 for match in matches : 
     print(match)
