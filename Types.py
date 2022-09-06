@@ -7,3 +7,4 @@ print(type(echo))
 
 
 print(type(hasattr))
+print(type())
