@@ -3,5 +3,6 @@ def Method(Argument):
     def Method1():
         print(Greeting,Argument)
        
-    Method1()
-Method("testpress")
+    return Method1
+x=Method("testpress")
+x()

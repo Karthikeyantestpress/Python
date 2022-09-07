@@ -14,7 +14,7 @@ class Plans:
             return plan
         else:
             raise StopIteration
-    def printPlan(self):
+    def printPlan(self): 
         for i in range(self.max+1):
             print("your plan for {} is to {}".format(self.week[i],self.plans[i]))
 Madhesh_plans = Plans()
