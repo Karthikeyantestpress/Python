@@ -15,5 +15,5 @@ class Fib:
             raise StopIteration
         self.a, self.b = self.b, self.a + self.b
         return fib
-
-print(Fib(10))
+for n in Fib(10):
+        print(n)
